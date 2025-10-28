@@ -28,18 +28,10 @@ ul{
     margin-bottom: 20px;
 
 }
-img{
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
 
-
-}
 a{
     display: inline-block;
-    background-color: #007180;
+    background-color: #800046;
     color: white;
     padding: 10px 15px;
     text-decoration: none;
@@ -48,5 +40,33 @@ a{
 
 }
 a:hover{
-    background-color: #005f6b;
+    background-color: #6b004b;
+
 }
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.flex_container img.Main_image{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+    
+}
+.flex_container aside{
+    flex: 1;
+    min-width: 250px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+
+
